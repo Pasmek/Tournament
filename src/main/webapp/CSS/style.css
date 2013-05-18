@@ -1,0 +1,50 @@
+#container
+{
+    margin: 0 auto;
+    width: 1024px;
+    background: #fff;
+}
+
+#header
+{
+    background: #ccc;
+    height: 100px;
+    padding: 5px;
+    margin:0 auto;
+}
+
+#header h1 
+{
+    margin: 0; 
+    padding: 15px;
+    float:left;
+}
+
+#login {
+    display: block;
+    margin: 0 auto;
+    padding-left: 780px;
+}
+
+#navigation
+{
+    float: left;
+    width: 100%;
+    background: #333;
+}
+
+.content-container
+{
+    float: left;
+    width: 100%;
+    background: #fff url(/wp-content/uploads/layout-three-liquid-background1.gif) repeat-y 20% 0;
+}
+
+#footer
+{
+    clear: both;
+    background: #ccc;
+    text-align: right;
+    padding: 20px;
+    height: 1%;
+}

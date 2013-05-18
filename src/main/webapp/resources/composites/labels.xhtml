@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this template, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:composite="http://java.sun.com/jsf/composite"
+      xmlns:p="http://primefaces.org/ui">
+
+    <composite:interface>
+    </composite:interface>
+
+    <composite:implementation> 
+            <p:menubar>
+                <p:menuitem value="Strona główna" url="index.xhtml"/>
+                <p:menuitem value="Koszykówka"  url="index.xhtml"/>  
+                <p:menuitem value="Siatkówka"  url="index.xhtml"/>  
+                <p:menuitem value="Piłka nożna"  url="index.xhtml"/>  
+                <p:menuitem value="Mój profil"  url="index.xhtml" rendered="#{login.authenticated}"/>          
+            </p:menubar> 
+
+    </composite:implementation>
+
+</html>
